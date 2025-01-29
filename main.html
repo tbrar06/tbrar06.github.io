@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tanveer Brar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <div class="container content">
+        <div class="column content-about">
+            <img src="/Users/tanveerbrar/Downloads/site/resources/tb.png">
+            <div class="content-about-text">
+                <div class="name" href="#">Tanveer Brar</div>
+                <header>
+                        <a href="#work-experience" class="nav-link">Work Experience</a>
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <a href="#skills" class="nav-link">Skills</a>
+                        <a href="#education" class="nav-link">Education</a>
+                        <a href="#contact" class="nav-link">Contact</a>
+                </header>
+                <div class="content-quick-links">
+                    <a href="mailto:tanveerbrar14@gmail.com" class="icon email" title="Email me">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                
+                    <!-- LinkedIn Icon -->
+                    <a href="https://www.linkedin.com/in/brart5/" target="_blank" class="icon linkedin" title="Visit my LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                
+                    <!-- GitHub Icon -->
+                    <a href="https://github.com/tbrar06" target="_blank" class="icon github" title="Visit my GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>  
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="column content-info">
+            <div class="content-info-name">Hello, I'm Tanveer, a final year Software BEng student at McMaster University.</div>
+            <!-- <div class="content-info-intro">Final year Software BEng student at McMaster University</div> -->
+
+            <div class="content-info-intro">
+                <p>As a passionate problem solver, I enjoy the process of abstracting out real world instances to create usable and intuitive solutions. My favourite tasks involve communication with cross-functional teams so I can understand the problem from different perspectives.</p>
+                <p>Currently, I'm in my final year of Bachelors of Software Engineering at McMaster University, graduating in April 2025. I have a strong foundational understanding of design principles, object oriented programming, algorithms and object oriented programming.</p>
+                <p>In the past, I've had co-op opportunities to work as a Software Developer in a variety of industries - digital healthcare, telecommunications and consulting, as well as across different company sizes - from one office places to giant corporates. I immensely value being exposed to constant learning opportunities as a developer and familiarizing with the role of tech across different industries.</p>
+            </div>
+            <hr/>
+            
+            <div class="cards work-experience">
+                <p class="card-header" id="work-experience">Work Experience</p>
+                <a href="https://www.oceanmd.com/" target="_blank">
+                    <div class="card card-1">
+                        <div class="work-header">
+                            <h4 class="work-place">OceanMD - 8 months</h4>
+                            <i class="fas fa-external-link-alt arrow"></i>
+                        </div>
+                        <div class="work-info">
+                            <span class="work-role">Software Developer Co-op</span>
+                            <span class="timeline">Sept 2023 - Dec 2023, May 2024 - Aug 2024</span>
+                        </div>
+                        <div class="work-highlights">
+                            Built full-stack features in Agile environment using Java Spring, Vue JS and legacy front-end. 
+                            Resolved critical race conditions in open source Chrome extension for integration with an EMR using JavaScript.
+                            Developed comprehensive unit tests using JUnit and Mockito, increasing code coverage by 20%.
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.rogers.com/" target="_blank">
+                    <div class="card card-2">
+                        <div class="work-header">
+                            <h4 class = "work-place">Rogers - 8 months</h4>
+                            <i class="fas fa-external-link-alt arrow"></i>
+                        </div>
+                        <div class="work-info">
+                            <span class="work-role">Software Developer Co-op</span>
+                            <span class="timeline">Jan 2023 - Aug 2023</span>
+                        </div>
+                        <div class = "work-highlights">
+                            Migrated 16 SOAP web services to REST for a legacy Java EE tool, bringing it back to life with optimized performance.
+                            Tested revamped legacy tool on pre-production environments and assisted in deploying WAR.
+                            Built full-stack features in Agile team for technician application using Java Spring, ReactJS and Typescript.
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.techmahindra.com/" target="_blank">
+                    <div class="card card-3">
+                        <div class="work-header">
+                            <h4 class = "work-place">Tech Mahindra - 4 months</h4>
+                            <i class="fas fa-external-link-alt arrow"></i>
+                        </div>
+                        <div class="work-info">
+                            <span class="work-role">Software Engineer Co-op</span>
+                            <span class="timeline">May 2022 - Aug 2022</span>
+                        </div>
+                        <div class = "work-highlights">
+                            Developed a robust validation tool using Java Velocity Templates to authenticate eight types of trade data against pre-defined formats to facilitate data compliance.
+                            Acquired expertise in designing and developing microservice architecture through hands-on employee training.
+                        </div>
+                    </div>
+                </a>
+                <div class="work-resume timeline" onclick="openResume()">
+                    <a class="resume-btn">View Full Resume&nbsp;</a>
+                    <i class="fas fa-external-link-alt arrow"></i>
+                </div>
+            </div>
+            <hr/>
+            
+            <div class = "cards projects-1">
+                <p class="card-header" id="projects">Projects</p>
+                <div class="card card-1">
+                    <div class="project-header">
+                        <h4 class = "project-name">Source Code Optimizer</h4>
+                        <span>
+                            <a class="project-link timeline" href="https://github.com/ssm-lab/capstone--source-code-optimizer" target="_blank">GitHub 
+                                <i class="fas fa-external-link-alt arrow"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class = "project-highlights">
+                        <span class="highlight highlight-1">group-project</span>
+                        <span class="highlight highlight-2">academic</span>
+                        <span class="highlight highlight-3">in-progress</span>
+                    </div>
+                    <div class="project-info">
+                        Python tool that identifies and refactors energy-inefficient code patterns with the aim of reducing overall energy consumption. Integrated with a VS code plugin that allows easy user experience for multiple refactorings. Utilizes AST parsing, PyLint, CodeCarbon and provides option to integrate automated tests from your code base.
+                    </div>
+                </div>
+                <div class="card card-2">
+                    <div class="project-header">
+                        <h4 class="project-name">PlantSweetness</h4>
+                        <span>
+                            <a class ="project-link timeline" href="https://plantsweetness.ca/" target="_blank">Live Site
+                                <i class="fas fa-external-link-alt arrow"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class = "project-highlights">
+                        <span class="highlight highlight-3">completed</span>
+                    </div>
+                    <div class="project-info">
+                        Website for a vegan bakery with online ordering functionality, based on client requirements. A combination of custom Wordpress theme built using PHP and vanilla HTML, and Elementor. 
+                    </div>
+                </div>
+                <div class="card card-3">
+                    <div class="project-header">
+                        <h4 class="project-name">YachtsGreen</h4>
+                        <span>
+                            <a class ="project-link timeline" href="https://yachtsgreen.com/" target="_blank">Live Site
+                                <i class="fas fa-external-link-alt arrow"></i>
+                            </a>
+                            <a class ="project-link timeline" href="https://www.figma.com/design/qtJuKY3GXIJHHgj8YnVy6g/Green-Yachts?node-id=0-1&t=8EjvYBEHaGcBm1g8-1" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Figma Design
+                                <i class="fas fa-external-link-alt arrow"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class = "project-highlights">
+                        <span class="highlight highlight-3">in-progress</span>
+                    </div>
+                    <div class="project-info">
+                        <span>Website for green yacht upgrades, based on client requirements. Custom design built in Figma and Wordpress theme built using PHP.
+                    </div>
+                </div>
+            </div>
+            <div class = "cards projects-2">
+                <div class = "card card-1">
+                    <div class="project-header">
+                        <h4 class="project-name">Chat Messaging App</h4>
+                        <span>
+                            <a class ="project-link timeline" href="https://github.com/sardanad/Chat-Messaging-App" target="_blank">GitHub
+                                <i class="fas fa-external-link-alt arrow"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class = "project-highlights">
+                        <span class="highlight highlight-1">group-project</span>
+                        <span class="highlight highlight-2">academic</span>
+                        <span class="highlight highlight-3">in-progress</span>
+                    </div>
+                    <div class="project-info">
+                        Application for built for a hypothetical company for internal communication, integrated with encryption keys. Involved design of architecture and development of mobile application in Java.
+                    </div>
+                </div>
+            </div>
+            <hr/>
+
+            <div class="skills">
+                <p class="card-header" id="skills">Skills</p>
+                <div class="skills-inner">
+                    Through work and personal projects, I have experience in full-stack development, API development, Wordpress and testing.
+                    <div class="tabs">
+                        <div class="tab tab-1" data-target="tab1">Front End Languages & Frameworks</div>
+                        <div class="tab tab-2 active" data-target="tab2">Back End Languages & Frameworks</div>
+                        <div class="tab tab-3" data-target="tab3">Database Querying</div>
+                        <div class="tab tab-4" data-target="tab4">Tools</div>
+                    </div>
+                    <div class="tab-content" id="tab1">
+                        <p>Vue JS, React JS, JavaScript, TypeScript, HTML, CSS</p>
+                    </div>
+                    <div class="tab-content active" id="tab2">
+                        <p>Java, Spring Boot, Mockito, Junit, Python, PHP</p>
+                    </div>
+                    <div class="tab-content" id="tab3">
+                        <p>SQL, MQL</p>
+                    </div>
+                    <div class="tab-content" id="tab4">
+                        <p>MongoDB, Docker, Tomcat, GitHub, LaTeX, Postman</p>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+
+            <div class="education">
+                <p class="card-header" id="education">Education</p>
+                <div class="education-inner">
+                    <h3>Bachelors in Software Engineering, McMaster University</h3>
+                    <div class="timeline">Sept 2020 - April 2025</div>
+                    <div><u>Relevant Courses:</u> Data Structures & Algorithms, Linear Optimization, Concurrent Systems, Databases, Sequential Decision Making</div><br/>  
+                </div>
+                <div class="extra-inner">
+                    <div><u>Extracurriculars:</u> Designer at GDSC McMaster</div>
+                    <div class="timeline">Sept 2021 - April 2022</div>
+                    <div>Contributed to developent of application for roomates to communicate using ExpressJS and PostgreSQL</div>
+                </div>
+            </div>
+            <hr/>
+            
+            <div class="contact">
+                <p class="card-header" id="contact">Contact</p>
+                <div class="contact-inner">
+                    I'm currently open to full time roles in software development starting May 2025. Please feel free to reach out using one of the methods below. 
+
+                    <div class="contact-info">
+                        <div class="contact-text">
+                            <div class="contact-email"><b>Email: </b>tanveerbrar14@gmail.com</div> 
+                            <div class="contact-phone"><b>Phone: </b>(+1) 437 925 2061</div>
+                        </div>
+                        <div class="contact-links">
+                            <a href="mailto:tanveerbrar14@gmail.com" class="icon email" title="Email me">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        
+                            <a href="https://www.linkedin.com/in/brart5/" target="_blank" class="icon linkedin" title="Visit my LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        
+                            <a href="https://github.com/tbrar06" target="_blank" class="icon github" title="Visit my GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+        </div>
+    </div>
+    
+    <script>
+        const tabs = document.querySelectorAll('.tab');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+                tab.classList.add('active');
+                const target = document.getElementById(tab.dataset.target);
+                target.classList.add('active');
+            });
+        });
+
+        function openResume() {
+            window.open('/Users/tanveerbrar/Downloads/site/Tanveer Brar - Resume.pdf', '_blank'); // Opens in a new tab
+        }
+    </script>
+</body>
+</html>
